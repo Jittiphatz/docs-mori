@@ -25,7 +25,8 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/get-started">
             Get Started!
-          </Link>
+          </Link><br></br>&nbsp;
+          <Link className='button button--secondary button--lg' to='https://discord.gg/Qqj2kCd6Qd'>Discord</Link>
         </div>
       </div>
     </header>
@@ -37,7 +38,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={``}
-      description="Description will go into a meta tag in <head />">
+      description="Documention for Mori Dev">
       <HomepageHeader />
     </Layout>
   );

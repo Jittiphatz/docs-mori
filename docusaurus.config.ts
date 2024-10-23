@@ -70,23 +70,10 @@ const config: Config = {
         src: 'img/mori.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documention',
-        },
-        //{to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/MoriDev-2023',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          href: 'https://discord.gg/Qqj2kCd6Qd',
-          label: 'Support',
-          position: 'right',
-        },
+        {type: 'docSidebar', sidebarId: 'tutorialSidebar',  position: 'left', label: 'Documention'},
+        {to: "https://status.jittiphat.site", label: "Status", position: "left" },
+        {to: 'https://discord.gg/Qqj2kCd6Qd', label: 'Discord', position: 'left',},
+        {href: 'https://github.com/MoriDev-2023', label: 'GitHub', position: 'right',},
       ],
     },
     footer: {
